@@ -16,6 +16,12 @@ public class Test1Controller {
 
     @GetMapping
     public String test1(){
-        return "test1";
+        return "test";
+    }
+
+
+    @GetMapping
+    public String test2(){
+        return "功能2完成";
     }
 }
