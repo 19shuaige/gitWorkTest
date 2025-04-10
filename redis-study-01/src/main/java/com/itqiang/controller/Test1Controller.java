@@ -16,7 +16,7 @@ public class Test1Controller {
 
     @GetMapping
     public String test1(){
-        return "test";
+        return "我改了这个";
     }
 
 
